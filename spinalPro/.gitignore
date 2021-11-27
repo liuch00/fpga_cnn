@@ -1,0 +1,41 @@
+spinalPro/*.class
+spinalPro/*.log
+spinalPro/*.bak
+
+# sbt specific
+spinalPro/.cache/
+spinalPro/.history/
+spinalPro/.lib/
+spinalPro/dist/*
+spinalPro/target
+spinalPro/lib_managed/
+spinalPro/src_managed/
+spinalPro/project/boot/
+spinalPro/project/plugins/project/
+
+# Scala-IDE specific
+spinalPro/.scala_dependencies
+spinalPro/.worksheet
+
+spinalPro/.idea
+spinalPro/out
+
+# Eclipse
+spinalPro/bin/
+spinalPro/.classpath
+spinalPro/.project
+spinalPro/.settings
+spinalPro/.cache-main
+
+#User
+spinalPro/*.vhd
+spinalPro/*.v
+spinalPro/*.cf
+spinalPro/*.json
+spinalPro/*.vcd
+!spinalPro/tester/src/test/resources/*.vhd
+
+
+spinalPro/simWorkspace/
+spinalPro/tmp/
+spinalPro/null
